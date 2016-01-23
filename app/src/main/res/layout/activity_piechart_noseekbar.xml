@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/chart1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/seekBar1" />
+
+    <TextView
+        android:id="@+id/seekBar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/seekBar2"
+        android:layout_margin="2dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toLeftOf="@+id/tvXMax"
+        android:layout_marginRight="5dp"
+        android:max="25"
+        android:text="一般舆情共计130条"
+        android:paddingBottom="5dp" />
+    <SeekBar
+        android:id="@+id/seekBar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/seekBar3"
+        android:layout_margin="2dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toLeftOf="@+id/tvXMax"
+        android:layout_marginRight="5dp"
+        android:max="25"
+        android:paddingBottom="5dp" />
+    <SeekBar
+        android:id="@+id/seekBar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/seekBar4"
+        android:layout_margin="2dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toLeftOf="@+id/tvXMax"
+        android:layout_marginRight="5dp"
+        android:max="25"
+        android:paddingBottom="5dp" />
+    <SeekBar
+        android:id="@+id/seekBar4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/seekBar5"
+        android:layout_margin="2dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toLeftOf="@+id/tvXMax"
+        android:layout_marginRight="5dp"
+        android:max="25"
+        android:paddingBottom="5dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="2dp"
+        android:layout_toLeftOf="@+id/tvYMax"
+        android:layout_marginRight="5dp"
+        android:max="200"
+        android:paddingBottom="5dp" />
+
+
+
+</RelativeLayout>
